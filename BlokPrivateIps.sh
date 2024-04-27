@@ -39,3 +39,4 @@ sudo iptables -A FORWARD -s 198.18.140.0/24 -j DROP
 sudo iptables -A FORWARD -s 102.230.9.0/24 -j DROP
 sudo iptables -A FORWARD -s 102.233.71.0/24 -j DROP
 iptables-save
+sudo apt install iptables-persistent -y
